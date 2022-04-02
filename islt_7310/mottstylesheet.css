@@ -1,10 +1,27 @@
 body {
-                background-color: #006699;
+        background-color: #006699;
             }
         h1 {
-            color: #00FF99;
+        color: #00FF99;
+        }
+        h3 {
+            color: #00ff99;
         }
         p {
+        color: #FFFFcc;
+        }
+        div.a {
+            text-indent: -36px;
+            padding-left: 36px;
             color: #FFFFcc;
         }
-
+        
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: black;
+  text-align: center;
+}
