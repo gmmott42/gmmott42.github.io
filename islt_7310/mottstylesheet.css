@@ -15,7 +15,16 @@ body {
             padding-left: 36px;
             color: #FFFFcc;
         }
-        
+
+header {
+    background-color: black;
+    text-align: center; color: white; font-size: 36px;
+}
+
+a {
+    color: white;
+  }
+     
 .footer {
   position: fixed;
   left: 0;
@@ -25,3 +34,32 @@ body {
   color: black;
   text-align: center;
 }
+
+
+            /*entire page style*/
+            * {margin: 0; padding: 0;}
+            body {margin: 1% auto; width: 90%; border: 1px solid black;}
+
+            /*semantic element styles*/
+            header {border-bottom: 1px solid black;}
+            nav {border-bottom: 1px solid black;}
+            main {float: left; height: 350px; width: 84%;}
+            aside {float: right; width: 15%; height: 350px; border-left: 1px solid black;}
+            footer {border-top: 1px solid black; clear: both;}
+
+
+            /*content styling*/
+            h1 {padding: 10px; font-size: 14pt;}
+
+            /*media queries*/
+            @media screen and (max-width:850px) { 
+                main { 
+                    background-color:black; 
+                } 
+            }
+            @media screen and (max-width:350px) { 
+                main { 
+                    background-color:white; 
+                } 
+            }   
+        
