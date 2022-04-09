@@ -39,8 +39,8 @@ a {
     left: 0;
   bottom: 0;
   width: 100%;
-  background-color: grey;
-  color: black;
+  background-image: url("earth.jpg");
+  color: white;
   text-align: center;
   font-size: 12px;
 }
