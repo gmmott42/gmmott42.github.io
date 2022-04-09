@@ -19,6 +19,11 @@ body {
         color: #FFFFcc;
         font-family: Montserrat, serif;
         }
+        p1 {
+            color: black;
+            font-weight: bold;
+        font-family: Montserrat, serif;
+        }
 
         div.a {
             text-indent: -36px;
@@ -40,7 +45,10 @@ a {
   bottom: 0;
   width: 100%;
   background-image: url("earth.jpg");
-  color: white;
+  background-size: 150px;
+  width: 100%;
+  height: 100px;
+  color: black;
   text-align: center;
   font-size: 12px;
 }
