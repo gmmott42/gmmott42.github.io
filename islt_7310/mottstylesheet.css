@@ -38,10 +38,10 @@ a {
 
             /*entire page style*/
             * {margin: 0; padding: 0;}
-            body {margin: 1% auto; width: 90%; border: 1px solid black;}
+            body {margin: 1% auto; width: 90%; border: none;}
 
             /*semantic element styles*/
-            header {border-bottom: 1px solid black;}
+            header {border-bottom: none;}
             nav {border-bottom: 1px solid black;}
             main {float: left; height: 350px; width: 84%;}
             aside {float: right; width: 15%; height: 350px; border-left: 1px solid black;}
@@ -54,12 +54,123 @@ a {
             /*media queries*/
             @media screen and (max-width:850px) { 
                 main { 
-                    background-color:black; 
+                    background-color: #006699; 
                 } 
             }
             @media screen and (max-width:350px) { 
                 main { 
-                    background-color:white; 
+                    background-color:#006699; 
                 } 
-            }   
+            }
+            
+
+.active a:link {
+    background-color: black;
+}
+#hamburger {
+    display: none;
+}
+
+nav {
+    top: 0px;   
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav>ul li {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    padding: 15px 15px 15px 15px;
+    width: 150px;
+    margin: 2px;
+}
+
+
+nav a:link{
+    background-color: grey;
+}
+nav a:hover, nav a:focus {
+    background-color: cornsilk;
+}
+nav a:active{
+    background-color: aliceblue;
+}
+
+
+nav ul>li ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+}
+
+
+nav>ul>li:hover>ul{
+    display: block;
+}
+@media only screen and (max-width: 640px) {
+	header {
+		position: relative;
+        font-size: 30px;
+        height: 40px;
+        display: block;
+        background-color: black;
+        width: 100%;        
+
+	}
+	#hamburger {
+		display: inline-block;
+        padding-left: 20px;
+        width: 20px;
+        font-size: 24px;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 30px 20px 20px 0px;
+		top: 20px;
+			}
+	nav:hover ul {
+		display: block;
+	}
+    	nav:hover #mobileHide {
+		display: none;
+	}
+	nav li {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+    nav>ul li {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border-top: none;
+    border-bottom: none;
+    padding: 15px 0px 15px 35px;
+    width: 240px;
+    margin-bottom: none;
+}
+nav .lastMobile {border-bottom: none;}
+    nav ul li ul {
+        display:none;
+    }
+}
         
