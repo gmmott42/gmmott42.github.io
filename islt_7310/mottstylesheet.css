@@ -78,7 +78,7 @@ ul2 li ul{
 .picbig {
     position: absolute;
     width: 0px;
-    z-index: 10;
+    z-index:10;
 }
 .pic:hover + .picbig{
     width: 200px;
