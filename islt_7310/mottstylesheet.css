@@ -44,7 +44,7 @@ a {
     left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url("earth.jpg");
+  background-image: url("nasa.jpg");
   background-size: 150px;
   width: 100%;
   height: 100px;
@@ -71,6 +71,18 @@ ul2 li ul{
     text-indent: 20px;
 }
 
+.pic {
+    width: "15px";
+    height: "15px";
+}
+.picbig {
+    position: absolute;
+    width: 0px;
+    z-index: 10;
+}
+.pic:hover + .picbig{
+    width: 200px;
+}
 
             /*entire page style*/
             * {margin: 0; padding: 0;}
