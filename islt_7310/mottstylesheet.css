@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
 body {
         background-color: #006699;
             }
@@ -18,10 +22,6 @@ body {
             color: #FFFFcc;
         }
 
-    @font-face {
-        font-family: Montserrat;
-        src: url(Montserrat-VariableFont_wght.ttf);
-    }
 
 header {
     background-color: black;
