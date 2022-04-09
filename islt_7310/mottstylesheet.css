@@ -7,13 +7,15 @@ body {
             }
         h1 {
         color: #00FF99;
+        font-family: Montserrat, serif;
         }
         h3 {
             color: #00ff99;
+            font-family: Montserrat, serif;
         }
         p {
         color: #FFFFcc;
-        font-family: Montserrat;
+        font-family: Montserrat, serif;
         }
 
         div.a {
