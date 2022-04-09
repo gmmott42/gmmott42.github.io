@@ -16,6 +16,11 @@ body {
             color: #FFFFcc;
         }
 
+    @font-face {
+        font-family: Montserrat;
+        src: url(Montserrat-VariableFont_wght.ttf);
+    }
+
 header {
     background-color: black;
     text-align: center; color: white; font-size: 36px;
