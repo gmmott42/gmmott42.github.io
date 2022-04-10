@@ -126,6 +126,15 @@ button {
     z-index:10;
 }
 
+.pic1 {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 30px;
+}
+
 
             /*entire page style*/
             * {margin: 0; padding: 0;}
