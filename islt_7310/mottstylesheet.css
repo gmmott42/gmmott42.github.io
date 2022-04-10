@@ -78,6 +78,41 @@ ul3 {
     color: white;
 }
 
+ul4 {
+    font-size: 20px;
+    color: #FFFFcc;
+    text-align: center;
+    font-family: Montserrat, serif;
+    list-style: none;
+}
+
+ul5 {
+    font-size: 18px;
+    color: black;
+    font-family: Montserrat, serif;
+}
+
+button {
+    background-color: gray;
+    border: none;
+    color: black;
+    padding: 12px 28px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Montserrat, serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    transition-duration: 0.2s;
+  }
+
+  button:hover {
+      background-color: white;
+      color: black;
+  }
+
 .pic {
     padding: 0px;
   transition: transform 0s; /* Animation */
