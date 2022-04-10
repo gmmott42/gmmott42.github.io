@@ -30,7 +30,7 @@ nav ul li a {
 nav ul li ul {
   display: none;
   position: absolute;
-  background-color: grey;
+  background-color: none;
   padding: 2px;
   border-radius: 0px 0px 4px 4px;
 }
