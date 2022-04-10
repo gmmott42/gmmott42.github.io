@@ -282,7 +282,7 @@ nav a {
     border-bottom: none;
     padding: 15px 0px 15px 35px;
     width: 240px;
-    margin-bottom: none;
+    margin-bottom: 0px;
 }
 nav .lastMobile {border-bottom: none;}
     nav ul li ul {
@@ -338,7 +338,7 @@ nav .lastMobile {border-bottom: none;}
 
     h1 {
         font-size: 30pt;
-        margin: 0 0 20 pt;
+        margin: 0pt 0pt 20pt;
         text-align: center;
         width: 100%;
     }
