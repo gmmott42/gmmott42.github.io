@@ -44,10 +44,12 @@ a {
     left: 0;
   bottom: 0;
   width: 100%;
-  background-image: url("backgr.jpg");
+  background-image: url("blue.jpg");
+  background-size: 900px;
   width: 100%;
   height: 100px;
-  color: black;
+  color: white;
+  font-weight: bold;
   text-align: center;
   font-size: 12px;
 }
@@ -70,20 +72,24 @@ ul2 li ul{
     text-indent: 20px;
 }
 
-.pic {
-    width: "15px";
-    height: "15px";
+ul3 {
+    font-size: 15px;
+    list-style: none;
+    color: white;
 }
-.picbig {
-    position: absolute;
-    width:0px;
-    -webkit-transition: width 0.3s linear 0s;
-    transition:width 0.3s linear 0s;
+
+.pic {
+    padding: 0px;
+  transition: transform 0s; /* Animation */
+  width: 15px;
+  height: 15px;
+  margin: 0 auto;
+}
+.pic:hover {
+    transform: scale(5);
     z-index:10;
 }
-.pic:hover + .picbig{
-    width: 200px;
-}
+
 
             /*entire page style*/
             * {margin: 0; padding: 0;}
