@@ -43,6 +43,7 @@ a {
 .footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
     background-image: url("blue.jpg");
     background-size: 900px;
@@ -113,6 +114,26 @@ button {
       color: black;
   }
 
+  input[type=text] {
+    width: 50%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: cornsilk;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-bottom: 250px;
+  }
+
 .pic {
     padding: 0px;
   transition: transform 0s; /* Animation */
@@ -123,6 +144,15 @@ button {
 .pic:hover {
     transform: scale(5);
     z-index:10;
+}
+
+.pic1 {
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+    margin-bottom: 30px;
 }
 
 .pic1 {
