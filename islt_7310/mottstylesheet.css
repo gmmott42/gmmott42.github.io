@@ -276,6 +276,10 @@ nav>ul>li:hover>ul{
         background-color: black;
         width: 100%;        
 	}
+
+    footer {
+        height: 70px;
+    }
 	#hamburger {
 		display: inline-block;
         padding-left: 20px;
